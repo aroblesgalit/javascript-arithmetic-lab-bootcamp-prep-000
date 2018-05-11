@@ -26,18 +26,18 @@ function makeInt(n) {
   return parseInt(n);
 }
 
-function makeInt(a, 10) {
-  return parseInt(a, 10);
+function makeInt(n, 10) {
+  return parseInt(n, 10);
 }
 
-function makeInt(a) {
+function makeInt(n) {
   return parseInt('nonsense!');
 }
 
-function preserveDecimal(a) {
-  return parseFloat(a);
+function preserveDecimal(n) {
+  return parseFloat(n);
 }
 
-function preserveDecimal(a) {
+function preserveDecimal(n) {
   return parseFloat("hi");
 }
