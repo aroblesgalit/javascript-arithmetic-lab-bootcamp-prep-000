@@ -14,6 +14,30 @@ function divide(a, b) {
   return a / b;
 }
 
-function inc(n) {
-  return n++;
+function inc(a) {
+  return a++;
+}
+
+function dec(a) {
+  return a--;
+}
+
+function makeInt(a) {
+  return parseInt(a);
+}
+
+function makeInt(a, 10) {
+  return parseInt(a, 10);
+}
+
+function makeInt(a) {
+  return parseInt('nonsense!');
+}
+
+function preserveDecimal(a) {
+  return parseFloat(a);
+}
+
+function preserveDecimal(a) {
+  return parseFloat("hi");
 }
